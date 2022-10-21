@@ -12,7 +12,6 @@
 		A16DB4062901260500F11953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16DB4042901260500F11953 /* Main.storyboard */; };
 		A16DB4082901260700F11953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A16DB4072901260700F11953 /* Assets.xcassets */; };
 		A16DB40B2901260700F11953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16DB4092901260700F11953 /* LaunchScreen.storyboard */; };
-		A1B6FA4829023DDE00A0F15E /* RandomPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6FA4729023DDE00A0F15E /* RandomPhotoView.swift */; };
 		A1B6FA4B2902405000A0F15E /* Dota2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6FA4A2902405000A0F15E /* Dota2ViewController.swift */; };
 		A1B6FA4E2902529F00A0F15E /* Dota2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6FA4D2902529F00A0F15E /* Dota2View.swift */; };
 		A1B6FA542902722E00A0F15E /* MatchesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6FA532902722E00A0F15E /* MatchesListView.swift */; };
@@ -30,7 +29,6 @@
 		A16DB4072901260700F11953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A16DB40A2901260700F11953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A16DB40C2901260700F11953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1B6FA4729023DDE00A0F15E /* RandomPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPhotoView.swift; sourceTree = "<group>"; };
 		A1B6FA4A2902405000A0F15E /* Dota2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dota2ViewController.swift; sourceTree = "<group>"; };
 		A1B6FA4D2902529F00A0F15E /* Dota2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dota2View.swift; sourceTree = "<group>"; };
 		A1B6FA532902722E00A0F15E /* MatchesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesListView.swift; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 		A1B6FA4929023DF000A0F15E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A1B6FA4729023DDE00A0F15E /* RandomPhotoView.swift */,
 				A1B6FA4D2902529F00A0F15E /* Dota2View.swift */,
 				A1B6FA532902722E00A0F15E /* MatchesListView.swift */,
 			);
@@ -235,7 +232,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1D79117290148E300E2FB52 /* ViewController.swift in Sources */,
-				A1B6FA4829023DDE00A0F15E /* RandomPhotoView.swift in Sources */,
 				A16DB3FF2901260500F11953 /* AppDelegate.swift in Sources */,
 				A1B6FA4E2902529F00A0F15E /* Dota2View.swift in Sources */,
 				A1B6FA542902722E00A0F15E /* MatchesListView.swift in Sources */,
