@@ -78,10 +78,10 @@
             </objects>
             <point key="canvasLocation" x="-3054" y="368"/>
         </scene>
-        <!--Dota2 View Controller-->
+        <!--Dota View Controller-->
         <scene sceneID="267-sV-gZw">
             <objects>
-                <viewController id="6mn-0F-bEu" customClass="Dota2ViewController" customModule="RandomPhoto" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6mn-0F-bEu" customClass="DotaViewController" customModule="RandomPhoto" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sqA-V0-FkL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -104,7 +104,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Dota 2 Profile (SwiftUI)"/>
                                                 <connections>
-                                                    <action selector="didTapButtonDota" destination="6mn-0F-bEu" eventType="touchUpInside" id="yTR-Ww-SY8"/>
+                                                    <action selector="didTapButtonProfile:" destination="6mn-0F-bEu" eventType="touchUpInside" id="gH3-6w-FIF"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9aL-o0-FV5">
@@ -115,7 +115,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Dota 2 Matches (UIKit)"/>
                                                 <connections>
-                                                    <action selector="didTapButtonMatches" destination="6mn-0F-bEu" eventType="touchUpInside" id="vwJ-vt-dDI"/>
+                                                    <action selector="didTapButtonMatches:" destination="6mn-0F-bEu" eventType="touchUpInside" id="80g-cD-enm"/>
                                                 </connections>
                                             </button>
                                         </subviews>

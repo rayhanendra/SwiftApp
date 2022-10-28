@@ -8,7 +8,7 @@
 //import UIKit
 import SwiftUI
 
-struct Dota2View: View {
+struct DotaView: View {
     var body: some View {
         VStack(spacing: 30) {
             Text("Dota2")

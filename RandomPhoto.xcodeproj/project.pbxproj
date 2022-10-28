@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A14E96E8290A126800889DD8 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14E96E7290A126800889DD8 /* Match.swift */; };
+		A14E96EB290A270400889DD8 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14E96EA290A270400889DD8 /* APIHandler.swift */; };
 		A16DB3FF2901260500F11953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16DB3FE2901260500F11953 /* AppDelegate.swift */; };
 		A16DB4012901260500F11953 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16DB4002901260500F11953 /* SceneDelegate.swift */; };
 		A16DB4062901260500F11953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16DB4042901260500F11953 /* Main.storyboard */; };
 		A16DB4082901260700F11953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A16DB4072901260700F11953 /* Assets.xcassets */; };
 		A16DB40B2901260700F11953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16DB4092901260700F11953 /* LaunchScreen.storyboard */; };
-		A1B6FA4B2902405000A0F15E /* Dota2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6FA4A2902405000A0F15E /* Dota2ViewController.swift */; };
-		A1B6FA4E2902529F00A0F15E /* Dota2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6FA4D2902529F00A0F15E /* Dota2View.swift */; };
-		A1B6FA542902722E00A0F15E /* MatchesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6FA532902722E00A0F15E /* MatchesListView.swift */; };
+		A1B6FA4B2902405000A0F15E /* DotaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6FA4A2902405000A0F15E /* DotaViewController.swift */; };
+		A1B6FA4E2902529F00A0F15E /* DotaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6FA4D2902529F00A0F15E /* DotaView.swift */; };
+		A1B6FA542902722E00A0F15E /* DotaMatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6FA532902722E00A0F15E /* DotaMatchesViewController.swift */; };
 		A1D79117290148E300E2FB52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16DB4022901260500F11953 /* ViewController.swift */; };
 		ABEA084B5F160870F4FB8809 /* Pods_RandomPhoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A1AE2B5996221021FDEEAF /* Pods_RandomPhoto.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8F87DC0025AE552E850FB000 /* Pods-RandomPhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomPhoto.debug.xcconfig"; path = "Target Support Files/Pods-RandomPhoto/Pods-RandomPhoto.debug.xcconfig"; sourceTree = "<group>"; };
+		A14E96E7290A126800889DD8 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		A14E96EA290A270400889DD8 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
 		A16DB3FB2901260500F11953 /* RandomPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16DB3FE2901260500F11953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A16DB4002901260500F11953 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,9 +33,9 @@
 		A16DB4072901260700F11953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A16DB40A2901260700F11953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A16DB40C2901260700F11953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1B6FA4A2902405000A0F15E /* Dota2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dota2ViewController.swift; sourceTree = "<group>"; };
-		A1B6FA4D2902529F00A0F15E /* Dota2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dota2View.swift; sourceTree = "<group>"; };
-		A1B6FA532902722E00A0F15E /* MatchesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesListView.swift; sourceTree = "<group>"; };
+		A1B6FA4A2902405000A0F15E /* DotaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotaViewController.swift; sourceTree = "<group>"; };
+		A1B6FA4D2902529F00A0F15E /* DotaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotaView.swift; sourceTree = "<group>"; };
+		A1B6FA532902722E00A0F15E /* DotaMatchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotaMatchesViewController.swift; sourceTree = "<group>"; };
 		DFA922AF03AB85FDEC17EB17 /* Pods-RandomPhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomPhoto.release.xcconfig"; path = "Target Support Files/Pods-RandomPhoto/Pods-RandomPhoto.release.xcconfig"; sourceTree = "<group>"; };
 		E4A1AE2B5996221021FDEEAF /* Pods_RandomPhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomPhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,6 +69,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A14E96E6290A11FD00889DD8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A14E96E7290A126800889DD8 /* Match.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A14E96E9290A26F600889DD8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A14E96EA290A270400889DD8 /* APIHandler.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		A16DB3F22901260500F11953 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +106,8 @@
 		A16DB3FD2901260500F11953 /* RandomPhoto */ = {
 			isa = PBXGroup;
 			children = (
+				A14E96E9290A26F600889DD8 /* Services */,
+				A14E96E6290A11FD00889DD8 /* Models */,
 				A1B6FA4C2902431A00A0F15E /* ViewControllers */,
 				A16DB3FE2901260500F11953 /* AppDelegate.swift */,
 				A16DB4002901260500F11953 /* SceneDelegate.swift */,
@@ -101,8 +123,7 @@
 		A1B6FA4929023DF000A0F15E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A1B6FA4D2902529F00A0F15E /* Dota2View.swift */,
-				A1B6FA532902722E00A0F15E /* MatchesListView.swift */,
+				A1B6FA4D2902529F00A0F15E /* DotaView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -111,7 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				A16DB4022901260500F11953 /* ViewController.swift */,
-				A1B6FA4A2902405000A0F15E /* Dota2ViewController.swift */,
+				A1B6FA4A2902405000A0F15E /* DotaViewController.swift */,
+				A1B6FA532902722E00A0F15E /* DotaMatchesViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -233,10 +255,12 @@
 			files = (
 				A1D79117290148E300E2FB52 /* ViewController.swift in Sources */,
 				A16DB3FF2901260500F11953 /* AppDelegate.swift in Sources */,
-				A1B6FA4E2902529F00A0F15E /* Dota2View.swift in Sources */,
-				A1B6FA542902722E00A0F15E /* MatchesListView.swift in Sources */,
+				A1B6FA4E2902529F00A0F15E /* DotaView.swift in Sources */,
+				A14E96EB290A270400889DD8 /* APIHandler.swift in Sources */,
+				A1B6FA542902722E00A0F15E /* DotaMatchesViewController.swift in Sources */,
 				A16DB4012901260500F11953 /* SceneDelegate.swift in Sources */,
-				A1B6FA4B2902405000A0F15E /* Dota2ViewController.swift in Sources */,
+				A1B6FA4B2902405000A0F15E /* DotaViewController.swift in Sources */,
+				A14E96E8290A126800889DD8 /* Match.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

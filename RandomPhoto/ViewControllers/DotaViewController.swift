@@ -1,5 +1,5 @@
 //
-//  Dota2ViewViewController.swift
+//  DotaViewViewController.swift
 //  RandomPhoto
 //
 //  Created by ENB on 21/10/22.
@@ -8,7 +8,7 @@ import SwiftUI
 import UIKit
 import Alamofire
 
-class Dota2ViewController: UIViewController {
+class DotaViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,17 +18,17 @@ class Dota2ViewController: UIViewController {
         getDotaProfile(steamId: "144103932")
     }
     
-    @IBAction func didTapButtonDota() {
-//        let vc = Dota2View()
-//        vc.view.backgroundColor = .systemCyan
-//        navigationController?.pushViewController(vc, animated: true)
-        let hostingController = UIHostingController(rootView: Dota2View())
+    @IBAction func didTapButtonProfile(_ sender: Any) {
+        //        let vc = Dota2View()
+        //        vc.view.backgroundColor = .systemCyan
+        //        navigationController?.pushViewController(vc, animated: true)
+        let hostingController = UIHostingController(rootView: DotaView())
         navigationController?.pushViewController(hostingController, animated: true)
     }
     
-    @IBAction func didTapButtonMatches() {
-        let MatchesLV = MatchesListView()
-        navigationController?.pushViewController(MatchesLV, animated: true)
+    @IBAction func didTapButtonMatches(_ sender: Any) {
+        let MatchesVC = DotaMatchesViewController()
+        navigationController?.pushViewController(MatchesVC, animated: true)
     }
     
     func getDotaProfile(steamId: String) {
